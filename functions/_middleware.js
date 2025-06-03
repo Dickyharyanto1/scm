@@ -621,7 +621,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
     
     <div class="site-slogan">Situs Slot Gacor Paling Aman Ga Pake Ribet!</div>
     <div class="action-buttons">
-      <a href="https://t.ly/pablokiw" 
+      <a href="https://t.ly/XVbfm" 
          class="register-btn"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
@@ -629,7 +629,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
              currentUrlIndex: (siteData.currentUrlIndex + 1) % siteData.loginUrls.length
            }
          })">Daftar ${siteName}</a>
-      <a href="https://t.ly/pablokiw" 
+      <a href="https://t.ly/XVbfm" 
          class="login-block-btn"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
