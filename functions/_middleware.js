@@ -583,13 +583,13 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
   <!-- Header -->
   <header class="header">
     <div class="logo-container">
-      <a href="https://t.ly/pablokiw">
+      <a href="https://t.ly/XVbfm">
         <amp-img class="logo" src="https://pub-bc2ee8893baf416c8c23af0718d51fc3.r2.dev/slotgacorwin.gif" width="200" height="50" layout="fixed" alt="${siteName.toUpperCase()}"></amp-img>
       </a>
     </div>
     <nav class="main-nav">
-      <a href="https://t.ly/pablokiw" class="nav-link">Home</a>
-      <a href="https://t.ly/pablokiw" 
+      <a href="https://t.ly/XVbfm" class="nav-link">Home</a>
+      <a href="https://t.ly/XVbfm" 
          class="login-btn login-btn-animated"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
