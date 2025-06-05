@@ -159,12 +159,12 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
   
   // Create array of login URLs to rotate through
   const loginUrls = [
-    "https://https://olxtotojp.my.id/mobile/index.php?page=daftar",
-    "https://https://olxtotojp.my.id/mobile/index.php?page=daftar",
-    "https://https://olxtotojp.my.id/mobile/index.php?page=daftar",
-    "https://https://olxtotojp.my.id/mobile/index.php?page=daftar",
-    "https://https://olxtotojp.my.id/mobile/index.php?page=daftar",
-    "https://https://olxtotojp.my.id/mobile/index.php?page=daftar"
+    "https://tinyurl.com/dxyvf6s9",
+    "https://tinyurl.com/dxyvf6s9",
+    "https://tinyurl.com/dxyvf6s9",
+    "https://tinyurl.com/dxyvf6s9",
+    "https://tinyurl.com/dxyvf6s9",
+    "https://tinyurl.com/dxyvf6s9"
   ];
   
   // Convert the array to JSON string for AMP state
@@ -583,13 +583,13 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
   <!-- Header -->
   <header class="header">
     <div class="logo-container">
-      <a href="https://https://olxtotojp.my.id/mobile/index.php?page=daftar">
+      <a href="https://tinyurl.com/dxyvf6s9">
         <amp-img class="logo" src="https://pub-bc2ee8893baf416c8c23af0718d51fc3.r2.dev/slotgacorwin.gif" width="200" height="50" layout="fixed" alt="${siteName.toUpperCase()}"></amp-img>
       </a>
     </div>
     <nav class="main-nav">
-      <a href="https://https://olxtotojp.my.id/mobile/index.php?page=daftar" class="nav-link">Home</a>
-      <a href="https://https://olxtotojp.my.id/mobile/index.php?page=daftar" 
+      <a href="https://tinyurl.com/dxyvf6s9" class="nav-link">Home</a>
+      <a href="https://tinyurl.com/dxyvf6s9" 
          class="login-btn login-btn-animated"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
@@ -621,7 +621,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
     
     <div class="site-slogan">Situs Slot Gacor Paling Aman Ga Pake Ribet!</div>
     <div class="action-buttons">
-      <a href="https://https://olxtotojp.my.id/mobile/index.php?page=daftar" 
+      <a href="https://tinyurl.com/dxyvf6s9" 
          class="register-btn"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
@@ -629,7 +629,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
              currentUrlIndex: (siteData.currentUrlIndex + 1) % siteData.loginUrls.length
            }
          })">Daftar ${siteName}</a>
-      <a href="https://https://olxtotojp.my.id/mobile/index.php?page=daftar" 
+      <a href="https://tinyurl.com/dxyvf6s9" 
          class="login-block-btn"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
