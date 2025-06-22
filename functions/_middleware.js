@@ -89,7 +89,7 @@ export async function onRequest(context) {
       }
       
       // Create canonical URL
-      const canonicalOrigin = 'https://daarelhasanah.sch.id/dh/akademik/piket'; // Replace with your actual domain
+      const canonicalOrigin = 'https://promkesnas.or.id/asec'; // Replace with your actual domain
       const canonicalUrl = `${canonicalOrigin}/${urlFormattedSite}/`;
       
       console.log('Generated canonical URL:', canonicalUrl);
@@ -159,12 +159,12 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
   
   // Create array of login URLs to rotate through
   const loginUrls = [
-    "https://tinyurl.com/daftepj3",
-    "https://tinyurl.com/daftepj3",
-    "https://tinyurl.com/daftepj3",
-    "https://tinyurl.com/daftepj3",
-    "https://tinyurl.com/daftepj3",
-    "https://tinyurl.com/daftepj3"
+    "https://t.ly/G7C7G",
+    "https://t.ly/G7C7G",
+    "https://t.ly/G7C7G",
+    "https://t.ly/G7C7G",
+    "https://t.ly/G7C7G",
+    "https://t.ly/G7C7G"
   ];
   
   // Convert the array to JSON string for AMP state
@@ -583,13 +583,13 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
   <!-- Header -->
   <header class="header">
     <div class="logo-container">
-      <a href="https://tinyurl.com/daftepj3">
+      <a href="https://t.ly/G7C7G">
         <amp-img class="logo" src="https://pub-bc2ee8893baf416c8c23af0718d51fc3.r2.dev/slotgacorwin.gif" width="200" height="50" layout="fixed" alt="${siteName.toUpperCase()}"></amp-img>
       </a>
     </div>
     <nav class="main-nav">
-      <a href="https://tinyurl.com/daftepj3" class="nav-link">Home</a>
-      <a href="https://tinyurl.com/daftepj3" 
+      <a href="https://t.ly/G7C7G" class="nav-link">Home</a>
+      <a href="https://t.ly/G7C7G" 
          class="login-btn login-btn-animated"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
@@ -621,7 +621,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
     
     <div class="site-slogan">Situs Slot Gacor Paling Aman Ga Pake Ribet!</div>
     <div class="action-buttons">
-      <a href="https://tinyurl.com/daftepj3" 
+      <a href="https://t.ly/G7C7G" 
          class="register-btn"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
@@ -629,7 +629,7 @@ function generateAmpHtml(siteName, canonicalUrl, allSites) {
              currentUrlIndex: (siteData.currentUrlIndex + 1) % siteData.loginUrls.length
            }
          })">Daftar ${siteName}</a>
-      <a href="https://tinyurl.com/daftepj3" 
+      <a href="https://t.ly/G7C7G" 
          class="login-block-btn"
          [href]="siteData.loginUrls[siteData.currentUrlIndex]"
          on="tap:AMP.setState({
